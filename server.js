@@ -2,7 +2,7 @@ var express = require('express');
 var session = require('express-session')
 var app = express();
 var bodyParser = require('body-parser');
-// var bcrypt =require('bcryptjs')
+// var bcrypt =require('bcrypt');
 
 app.use(express.static( __dirname + '/angular/dist' ));
 
