@@ -11,6 +11,11 @@ app.all("*", (req,res,next) => {
     res.sendFile(path.resolve("./angular/dist/index.html"))
 });
 
+app.get("/", function(req,res)
+{
+
+});
+
 app.listen(port, function() {
     console.log("listening on port "+ port+"!");
 });
